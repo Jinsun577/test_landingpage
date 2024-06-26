@@ -1,10 +1,94 @@
 <!doctype html>
 <html>
 <head>
-    <title>ZEZARI</title>
-    <meta charset="utf-8">
-</head>
-<body>
+    <title>ZEZARI 제자리</title>
+    <meta charset="utf=8">
+    <style>
+        .logo {
+            max-width: 50px;
+        }
 
+        #main {
+            text-align: center;
+        }
+        
+        #contact{
+            display: flex; 
+            flex-wrap: wrap;
+            min-height: 100%;
+            margin: auto;
+            justify-content: center;
+            align-content: center;
+        }
+
+        #call_family, #call_police{
+            background-color: #2ea44f;
+            border: 1px solid rgba(27, 31, 35, .15);
+            border-radius: 6px;
+            box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+            box-sizing: border-box;
+            color:#fff;
+            cursor: pointer;
+            font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji","Segoe UI Emoji";
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 20px;
+            padding: 6px 20px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            vertical-align: middle;
+            margin: 15px;
+        }
+
+        #message{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            width: 400px;
+            border: 3px solid gray;
+            padding: 20px;
+        }
+
+        #bottom{
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
+            border-bottom: 3px solid gray;
+            border-bottom-width: medium;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>연락주세요</h1>
+    </header>
+
+    <div id="main">
+        <h3>가나다 (여,79세)</h3>
+        <img src="grandma.png" width="300">
+        
+        <div id="contact">
+            <p style="text-align: center;"><a href="tel:*23#01028569014" id="call_family">보호자에게 전화하기</a></p>
+            <p style="text-align: center;"><a href="tel:*23#000" id="call_police">관할기관에 전화하기</a></p>
+        </div>
+        
+        <div id="message">
+            <img src="message.png" width="100%">
+        </div>
+
+        <div id="bottom">
+        <br><u>제자리로 돌아오기를 기다리고 있습니다.</u>
+        </div>
+        
+        <img src="logo.png" alt="logo" class="logo">
+
+    </div> 
 </body>
 </html>
